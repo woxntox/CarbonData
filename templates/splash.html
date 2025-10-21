@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>VANTABLACK: CARBON DATA</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='splash.css') }}">
+</head>
+<body>
+    <div class="splash-container">
+        <!-- Background audio -->
+        <audio id="background-music" loop>
+            <source src="{{ url_for('static', filename='audio/background.mp3') }}" type="audio/mpeg">
+        </audio>
+        
+        <!-- Main content -->
+        <div class="splash-content">
+            <div class="title-section">
+                <h1 class="main-title">VANTABLACK: CARBON DATA</h1>
+                <h2 class="subtitle">The Text Adventure Void That Stares Back</h2>
+            </div>
+            
+            <div class="description-section">
+                <p class="description">
+                    You wake in a place without light—<br>
+                    the kind that doesn't end when you close your eyes.<br>
+                    This world is stitched from memory, noise, and half-deleted dreams.<br>
+                    Somewhere in the static, someone—or something—is waiting to be found.<br>
+                    Let the signal-to-noise ratio be your only compass.
+                </p>
+            </div>
+            
+            <div class="button-section">
+                <button id="how-to-play-btn" class="splash-button primary">
+                    How to Play
+                </button>
+                <button id="mini-game-btn" class="splash-button secondary">
+                    This looks dumb. I'm gonna go find the little green man instead.
+                </button>
+            </div>
+        </div>
+        
+        <!-- How to Play Modal -->
+        <div id="how-to-play-modal" class="modal hidden">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>How to Play</h3>
+                    <button id="close-modal" class="close-btn">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="help-section">
+                        <h4>NAVIGATION</h4>
+                        <ul>
+                            <li><strong>MOVE</strong> works even in total darkness - feel your way through the void</li>
+                            <li>Try: <code>move forward</code>, <code>walk around</code>, <code>feel your way</code></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="help-section">
+                        <h4>DISCOVERY</h4>
+                        <ul>
+                            <li><strong>EXAMINE</strong> only works once there's light</li>
+                            <li>When the dark remembers your face, look closer at what it was hiding</li>
+                            <li>Some objects reveal themselves only after you've completed a puzzle (ie, light the room)</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="help-section">
+                        <h4>SENSORY EXPLORATION</h4>
+                        <ul>
+                            <li><strong>LISTEN</strong> - hear what the darkness is trying to tell you</li>
+                            <li><strong>TOUCH</strong> - feel the cold porcelain, the smooth surfaces</li>
+                            <li><strong>SMELL</strong> - the stale air holds secrets</li>
+                            <li><strong>TASTE</strong> - Use at your own risk</li>
+                            <li>Use your body like a sensor when sight fails</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="help-section">
+                        <h4>COMMUNICATION</h4>
+                        <ul>
+                            <li><strong>SAY</strong> - speak into the void, but be careful what you say</li>
+                            <li>Someone - or something - might be listening</li>
+                            <li>The right words can unlock hidden responses</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="help-section">
+                        <h4>THE DEVICE</h4>
+                        <ul>
+                            <li>Meet your 90's AI Assistant, Patch. Hints available.</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+                <div class="modal-footer">
+                    <button id="start-game-btn" class="splash-button primary">
+                        Start Game
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        
+        <!-- Mini Game Modal -->
+        <div id="mini-game-modal" class="modal hidden">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Where Will the Little Green Man Be Next?</h3>
+                    <div id="timer" class="timer hidden">10</div>
+                </div>
+                <div class="modal-body">
+                    <div class="grid-container">
+                        <div class="grid-coordinates">
+                            <div class="grid-cell" data-coord="A1"></div>
+                            <div class="grid-cell" data-coord="A2"></div>
+                            <div class="grid-cell" data-coord="A3"></div>
+                            <div class="grid-cell" data-coord="B1"></div>
+                            <div class="grid-cell" data-coord="B2"></div>
+                            <div class="grid-cell" data-coord="B3"></div>
+                            <div class="grid-cell" data-coord="C1"></div>
+                            <div class="grid-cell" data-coord="C2"></div>
+                            <div class="grid-cell" data-coord="C3"></div>
+                        </div>
+                    </div>
+                    <div id="success-message" class="success-message hidden">SUCCESS!</div>
+                    <div id="hurry-message" class="hurry-message hidden">HURRY UP!</div>
+                    <div id="computer-screen" class="computer-screen hidden">COMPUTER SCREEN</div>
+                    <div class="score-display">
+                        <span>Saved: <span id="score-value">0</span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Red Screen Overlay -->
+    <div id="red-screen" class="red-screen hidden">
+        <div class="red-screen-matrix">
+            <div class="matrix-line">THIS IS A COMPUTER SCREEN THIS IS A COMPUTER SCREEN THIS IS A COMPUTER SCREEN THIS IS A COMPUTER SCREEN</div>
+            <div class="matrix-line">THIS IS A COMPUTER SCREEN THIS IS A COMPUTER SCREEN THIS IS A COMPUTER SCREEN THIS IS A COMPUTER SCREEN</div>
+            <div class="matrix-line">THIS IS A COMPUTER SCREEN THIS IS A COMPUTER SCREEN THIS IS A COMPUTER SCREEN THIS IS A COMPUTER SCREEN</div>
+            <div class="matrix-line">THIS IS A COMPUTER SCREEN THIS IS A COMPUTER SCREEN THIS IS A COMPUTER SCREEN THIS IS A COMPUTER SCREEN</div>
+            <div class="matrix-line">THIS IS A COMPUTER SCREEN THIS IS A COMPUTER SCREEN THIS IS A COMPUTER SCREEN THIS IS A COMPUTER SCREEN</div>
+            <div class="matrix-line">THIS IS A COMPUTER SCREEN THIS IS A COMPUTER SCREEN THIS IS A COMPUTER SCREEN THIS IS A COMPUTER SCREEN</div>
+            <div class="matrix-line">THIS IS A COMPUTER SCREEN THIS IS A COMPUTER SCREEN THIS IS A COMPUTER SCREEN THIS IS A COMPUTER SCREEN</div>
+            <div class="matrix-line">THIS IS A COMPUTER SCREEN THIS IS A COMPUTER SCREEN THIS IS A COMPUTER SCREEN THIS IS A COMPUTER SCREEN</div>
+            <div class="matrix-line">THIS IS A COMPUTER SCREEN THIS IS A COMPUTER SCREEN THIS IS A COMPUTER SCREEN THIS IS A COMPUTER SCREEN</div>
+            <div class="matrix-line">THIS IS A COMPUTER SCREEN THIS IS A COMPUTER SCREEN THIS IS A COMPUTER SCREEN THIS IS A COMPUTER SCREEN</div>
+            <div class="matrix-line">THIS IS A COMPUTER SCREEN THIS IS A COMPUTER SCREEN THIS IS A COMPUTER SCREEN THIS IS A COMPUTER SCREEN</div>
+            <div class="matrix-line">THIS IS A COMPUTER SCREEN THIS IS A COMPUTER SCREEN THIS IS A COMPUTER SCREEN THIS IS A COMPUTER SCREEN</div>
+            <div class="matrix-line">THIS IS A COMPUTER SCREEN THIS IS A COMPUTER SCREEN THIS IS A COMPUTER SCREEN THIS IS A COMPUTER SCREEN</div>
+            <div class="matrix-line">THIS IS A COMPUTER SCREEN THIS IS A COMPUTER SCREEN THIS IS A COMPUTER SCREEN THIS IS A COMPUTER SCREEN</div>
+            <div class="matrix-line">THIS IS A COMPUTER SCREEN THIS IS A COMPUTER SCREEN THIS IS A COMPUTER SCREEN THIS IS A COMPUTER SCREEN</div>
+            <div class="matrix-line">THIS IS A COMPUTER SCREEN THIS IS A COMPUTER SCREEN THIS IS A COMPUTER SCREEN THIS IS A COMPUTER SCREEN</div>
+            <div class="matrix-line">THIS IS A COMPUTER SCREEN THIS IS A COMPUTER SCREEN THIS IS A COMPUTER SCREEN THIS IS A COMPUTER SCREEN</div>
+            <div class="matrix-line">THIS IS A COMPUTER SCREEN THIS IS A COMPUTER SCREEN THIS IS A COMPUTER SCREEN THIS IS A COMPUTER SCREEN</div>
+            <div class="matrix-line">THIS IS A COMPUTER SCREEN THIS IS A COMPUTER SCREEN THIS IS A COMPUTER SCREEN THIS IS A COMPUTER SCREEN</div>
+            <div class="matrix-line">THIS IS A COMPUTER SCREEN THIS IS A COMPUTER SCREEN THIS IS A COMPUTER SCREEN THIS IS A COMPUTER SCREEN</div>
+        </div>
+    </div>
+    
+    <script src="{{ url_for('static', filename='splash.js') }}"></script>
+</body>
+</html>

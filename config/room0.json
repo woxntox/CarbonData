@@ -1,0 +1,70 @@
+{
+  "room_id": "room0",
+  "name": "Dark Bathroom",
+  "description": "A pitch-black bathroom. You can't see anything.",
+  "state": "dark",
+  "items": {
+    "toilet": {
+      "id": "1A001",
+      "name": "toilet",
+      "description": "A standard toilet",
+      "position": "at_toilet",
+      "interactions": ["flush", "examine"],
+      "visible_in_dark": true
+    },
+    "sink": {
+      "name": "sink",
+      "description": "A bathroom sink",
+      "position": "at_sink",
+      "interactions": ["examine", "touch"],
+      "visible_in_dark": true
+    },
+    "patch_device": {
+      "name": "device",
+      "description": "A strange device that looks like an iPhone Pro Max and Nokia brick had a baby",
+      "position": "at_toilet",
+      "interactions": ["pick_up", "examine"],
+      "visible_in_dark": false,
+      "requires_light": true,
+      "state": "off"
+    },
+    "door": {
+      "name": "red door",
+      "description": "A red door",
+      "position": "at_door",
+      "interactions": ["examine", "open", "unlatch"],
+      "visible_in_dark": true,
+      "locked": true
+    },
+    "latch": {
+      "name": "latch",
+      "description": "A high latch on the door",
+      "position": "at_door",
+      "interactions": ["unlatch"],
+      "visible_in_dark": false,
+      "requires_light": true,
+      "state": "latched"
+    }
+  },
+  "positions": {
+    "center": "The center of the room",
+    "at_toilet": "Near the toilet and device",
+    "at_sink": "Near the sink",
+    "at_door": "Near the door"
+  },
+  "triggers": {
+    "flush_toilet": {
+      "action": "flush",
+      "target": "toilet",
+      "result": "device_lights_up",
+      "message": "The device on the floor lights up with a message: 'Everything come out alright?'"
+    },
+    "pick_up_device": {
+      "action": "pick_up",
+      "target": "patch_device",
+      "result": "room_lit",
+      "message": "The device glows softly, providing enough light to see the room dimly."
+    }
+  }
+}
+

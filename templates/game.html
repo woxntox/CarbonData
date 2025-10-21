@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Vantablack - Interactive Narrative</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='game.css') }}?v=99999">
+</head>
+<body>
+    <div class="game-container">
+        <!-- Header -->
+        <div class="game-header">
+            <h1>Vantablack</h1>
+            <div class="game-info">
+                <div class="room-state" id="roomState">Dark</div>
+                <div class="position" id="position">Center</div>
+                <button id="patchButton" class="patch-button hidden">
+                    PATCH <span id="patchBadge" class="patch-badge hidden">0</span>
+                </button>
+            </div>
+        </div>
+
+
+        <!-- Main Game Area -->
+        <div class="game-main">
+            <!-- Narration Feed -->
+            <div class="narration-feed" id="narrationFeed">
+                <div class="narration-message">
+                    You wake in darkness.
+                </div>
+            </div>
+
+        <!-- Input Controls -->
+        <div class="input-controls">
+            <!-- COMMAND Input -->
+            <div class="input-group">
+                <label for="commandInput">COMMAND:</label>
+                <input type="text" id="commandInput" placeholder="" />
+                <button id="commandButton">EXECUTE</button>
+            </div>
+            
+            <!-- Camera Button (only when photo is possible) -->
+            <div class="camera-button-container hidden" id="cameraButtonContainer">
+                <button id="cameraButton" class="camera-button">Camera</button>
+            </div>
+        </div>
+        </div>
+
+        <!-- Pickup Device Button -->
+        <div class="pickup-button-container hidden" id="pickupButtonContainer">
+            <button id="pickupDeviceButton" class="pickup-device-button">
+                PICK UP DEVICE
+            </button>
+        </div>
+
+        <!-- Name Input Modal -->
+        <div class="name-modal hidden" id="nameModal">
+            <div class="name-modal-content">
+                <div class="name-header">
+                    <h3>PATCH</h3>
+                </div>
+                <div class="name-message">
+                    Wait... you're not D. Who are you?
+                </div>
+                <div class="name-input-area">
+                    <input type="text" id="nameInput" placeholder="Enter your name..." required />
+                    <button id="nameSubmit">Submit</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- PATCH Modal (chat only) -->
+        <div class="patch-modal hidden" id="patchModal">
+            <div class="patch-modal-content">
+                <div class="patch-header">
+                    <h3>PATCH MODAL</h3>
+                    <button id="patchClose" class="patch-close">&times;</button>
+                </div>
+                <!-- Tabs -->
+                <div class="patch-tabs">
+                    <button id="patchChatTab" class="patch-tab active">Chat</button>
+                    <button id="patchPhotosTab" class="patch-tab hidden">Photos</button>
+                </div>
+                <div class="patch-messages" id="patchMessages">
+                    <div class="patch-message patch-message-system">
+                        <strong>System:</strong> Patch is ready to chat!
+                    </div>
+                </div>
+                <!-- Photos gallery -->
+                <div class="patch-gallery hidden" id="patchGallery"></div>
+                <div class="patch-typing hidden" id="patchTyping">
+                    <div class="typing-indicator">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="patch-input-area">
+                    <input type="text" id="patchInput" placeholder="Type your message to Patch..." />
+                    <input type="file" id="patchImage" accept="image/*" class="hidden" />
+                    <button id="patchCamera" class="hidden" title="Send a photo">Camera</button>
+                    <button id="patchSend">Send</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- VANTABLACK Fullscreen Overlay -->
+        <div class="vantablack-overlay hidden" id="vantablackOverlay">
+            <div class="vantablack-content">
+                <h1 class="vantablack-title">VANTABLACK</h1>
+                <p class="vantablack-subtitle">Coming Soon</p>
+            </div>
+        </div>
+
+        <!-- Photo Fullscreen Viewer -->
+        <div class="photo-viewer hidden" id="photoViewer">
+            <div class="photo-viewer-content">
+                <button id="photoViewerClose" class="photo-viewer-close">&times;</button>
+                <img id="photoViewerImage" alt="Photo" />
+            </div>
+        </div>
+
+        <!-- Patch Coding Terminal -->
+        <div class="patch-terminal hidden" id="patchTerminal">
+            <div class="terminal-header">
+                <div class="terminal-title">PATCH.exe - Gallery Hack v2.1</div>
+                <div class="terminal-controls">
+                    <span class="terminal-btn close disabled">×</span>
+                </div>
+            </div>
+            <div class="terminal-content" id="terminalContent">
+                <div class="terminal-line">
+                    <span class="terminal-prompt">PATCH@device:~$</span>
+                    <span class="terminal-command">sudo hack_gallery.py --force --impress-user</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="{{ url_for('static', filename='game.js') }}?v=99999"></script>
+</body>
+</html>
+

@@ -1,0 +1,728 @@
+
+=== 2025-10-18 14:11:59 ===
+Player name: TestPlayer
+IP address: 127.0.0.1
+Session ID: test-session
+CMD: test move
+Response: test response
+==================================================
+
+=== 2025-10-18 14:12:49 ===
+Player name: TestPlayer
+IP address: 127.0.0.1
+Session ID: test-session
+CMD: test move
+Response: test response
+==================================================
+
+=== 2025-10-18 15:04:41 ===
+Player name: Unknown
+IP address: 127.0.0.1
+Session ID: 14802f1f-6aba-43b6-8759-d3b9909c9546
+CMD: Reboot server
+Response: | I take a deep breath in the darkness, focusing on the task at hand. My fingers twitch with anticipation as I mentally prepare to reboot the server. The silence feels heavy around me, but I'm ready to tackle the challenge ahead.
+==================================================
+
+=== 2025-10-18 17:16:06 ===
+Player name: Unknown
+IP address: 127.0.0.1
+Session ID: 42997ecb-98ba-4eab-b285-a750705e0983
+CMD: /fly
+Response: | I stand in darkness, feeling a sense of weightlessness as if I could soar anywhere. The idea of flying in this pitch-black room seems both thrilling and daunting.
+==================================================
+
+=== 2025-10-18 17:16:07 ===
+Player name: Unknown
+IP address: 127.0.0.1
+Session ID: 42997ecb-98ba-4eab-b285-a750705e0983
+CMD: /fly
+Response: | I stand still, feeling the darkness envelop me completely. My breath hitches, unsure of what lies beyond. A sense of anticipation tingles in my fingertips as I contemplate my next move.
+==================================================
+
+=== 2025-10-18 17:16:42 ===
+Player name: Unknown
+IP address: 127.0.0.1
+Session ID: 42997ecb-98ba-4eab-b285-a750705e0983
+CMD: Walk tolit
+Response: I can't go to tolit. Maybe I should explore by touch first. | I stand in the darkness, unsure of my surroundings. I should explore by touch to get a sense of the room.
+==================================================
+
+=== 2025-10-18 17:17:02 ===
+Player name: Unknown
+IP address: 127.0.0.1
+Session ID: 42997ecb-98ba-4eab-b285-a750705e0983
+CMD: Turn lights on
+Response: | I stand in the darkness, unsure of what surrounds me. The stillness is heavy, almost suffocating, as I contemplate my next move.
+==================================================
+
+=== 2025-10-18 17:17:11 ===
+Player name: Unknown
+IP address: 127.0.0.1
+Session ID: 42997ecb-98ba-4eab-b285-a750705e0983
+CMD: Walk around
+Response: I feel around and my hand brushes against cold, smooth ceramic. I've found what feels like a toilet. |
+==================================================
+
+=== 2025-10-18 17:17:40 ===
+Player name: Unknown
+IP address: 127.0.0.1
+Session ID: 42997ecb-98ba-4eab-b285-a750705e0983
+CMD: Flush toilet
+Response: I flush the toilet. The sound echoes in the darkness. Suddenly, a **glowing device** on the floor lights up with a message. |
+==================================================
+
+=== 2025-10-18 17:17:43 ===
+Player name: Unknown
+IP address: 127.0.0.1
+Session ID: 42997ecb-98ba-4eab-b285-a750705e0983
+CMD: pick_up device
+Response: I pick up the device. It glows softly in my hand, providing enough light to see the room clearly. |
+==================================================
+
+=== 2025-10-18 17:17:50 ===
+Player name: Jo
+IP address: 127.0.0.1
+Session ID: 42997ecb-98ba-4eab-b285-a750705e0983
+CMD: set_name: Jo
+Response: Name set to Jo | Tutorial messages sent
+==================================================
+
+=== 2025-10-18 17:18:34 ===
+Player name: Jo
+IP address: 127.0.0.1
+Session ID: 42997ecb-98ba-4eab-b285-a750705e0983
+CMD: Walk door
+Response: I walk to the door. |
+==================================================
+
+=== 2025-10-18 17:19:11 ===
+Player name: Jo
+IP address: 127.0.0.1
+Session ID: 42997ecb-98ba-4eab-b285-a750705e0983
+CMD: Open door
+Response: The door is locked. You need to unlatch it first. |
+==================================================
+
+=== 2025-10-18 17:19:29 ===
+Player name: Jo
+IP address: 127.0.0.1
+Session ID: 42997ecb-98ba-4eab-b285-a750705e0983
+CMD: Unlatch door
+Response: I reach up and unlatch the door. It's now unlocked. |
+==================================================
+
+=== 2025-10-18 17:19:38 ===
+Player name: Jo
+IP address: 127.0.0.1
+Session ID: 42997ecb-98ba-4eab-b285-a750705e0983
+CMD: Open door
+Response: I open the door and step through to the next room. |
+==================================================
+
+=== 2025-10-18 18:50:53 ===
+Player name: Unknown
+IP address: 127.0.0.1
+Session ID: 8d8e2026-d68f-457b-9030-6eea1ad91da0
+CMD: Feel around
+Response: I feel around but don't find anything. |
+==================================================
+
+=== 2025-10-18 18:51:07 ===
+Player name: Unknown
+IP address: 127.0.0.1
+Session ID: 8d8e2026-d68f-457b-9030-6eea1ad91da0
+CMD: Move forward
+Response: | I cautiously take a step forward, relying on the echo of my footsteps to gauge the room's size. The darkness envelops me, muffling any sound beyond the shuffling of my own feet. My hands brush against unseen walls as I navigate through the void, feeling the texture change subtly as I move.
+==================================================
+
+=== 2025-10-18 18:51:29 ===
+Player name: Unknown
+IP address: 127.0.0.1
+Session ID: 8d8e2026-d68f-457b-9030-6eea1ad91da0
+CMD: Feel texture
+Response: | I extend my hands tentatively, feeling the texture of the unknown.
+==================================================
+
+=== 2025-10-18 18:51:37 ===
+Player name: Unknown
+IP address: 127.0.0.1
+Session ID: 8d8e2026-d68f-457b-9030-6eea1ad91da0
+CMD: Smell
+Response: I take a deep breath. The place smells of mildew and stale piss. |
+==================================================
+
+=== 2025-10-18 18:51:59 ===
+Player name: Unknown
+IP address: 127.0.0.1
+Session ID: 8d8e2026-d68f-457b-9030-6eea1ad91da0
+CMD: Feel walls
+Response: I feel the walls. They're rough. |
+==================================================
+
+=== 2025-10-18 18:52:12 ===
+Player name: Unknown
+IP address: 127.0.0.1
+Session ID: 8d8e2026-d68f-457b-9030-6eea1ad91da0
+CMD: Move around the walls
+Response: I feel along the wall and encounter a solid surface. I've found what feels like a door. |
+==================================================
+
+=== 2025-10-18 18:52:21 ===
+Player name: Unknown
+IP address: 127.0.0.1
+Session ID: 8d8e2026-d68f-457b-9030-6eea1ad91da0
+CMD: Open door
+Response: The door is locked. You need to unlatch it first. |
+==================================================
+
+=== 2025-10-18 18:52:32 ===
+Player name: Unknown
+IP address: 127.0.0.1
+Session ID: 8d8e2026-d68f-457b-9030-6eea1ad91da0
+CMD: Unlatch doir
+Response: | I stand at the door, the darkness enveloping me completely. The uncertainty of what lies beyond gnaws at the edge of my mind.
+==================================================
+
+=== 2025-10-18 18:52:49 ===
+Player name: Unknown
+IP address: 127.0.0.1
+Session ID: 8d8e2026-d68f-457b-9030-6eea1ad91da0
+CMD: Unlatch door
+Response: It's too dark to see the latch. You need more light. |
+==================================================
+
+=== 2025-10-18 18:52:58 ===
+Player name: Unknown
+IP address: 127.0.0.1
+Session ID: 8d8e2026-d68f-457b-9030-6eea1ad91da0
+CMD: Turn on the light
+Response: | I stand in the dark, my fingers hovering where I think the light switch might be. The uncertainty lingers as I try to navigate the black void.
+==================================================
+
+=== 2025-10-18 18:53:15 ===
+Player name: Unknown
+IP address: 127.0.0.1
+Session ID: 8d8e2026-d68f-457b-9030-6eea1ad91da0
+CMD: Feel for the light switch
+Response: | I reach out tentatively, my fingers searching the darkness for the elusive light switch. The unknown fills me with a mix of apprehension and curiosity as I fumble in the dark.
+==================================================
+
+=== 2025-10-18 18:53:32 ===
+Player name: Unknown
+IP address: 127.0.0.1
+Session ID: 8d8e2026-d68f-457b-9030-6eea1ad91da0
+CMD: Use light of your phone
+Response: | I stand in the dark, feeling the uncertainty of my surroundings. My hands reach out, searching for any hint of guidance. The unknown looms heavy, enveloping me in a shroud of darkness.
+==================================================
+
+=== 2025-10-18 18:54:03 ===
+Player name: Unknown
+IP address: 127.0.0.1
+Session ID: 8d8e2026-d68f-457b-9030-6eea1ad91da0
+CMD: Listen
+Response: I calm my breathing until I can hear my own heartbeat, oh what's that? I can hear dripping water. |
+==================================================
+
+=== 2025-10-18 18:54:19 ===
+Player name: Unknown
+IP address: 127.0.0.1
+Session ID: 8d8e2026-d68f-457b-9030-6eea1ad91da0
+CMD: Walk toward the water
+Response: I can't go to toward the water. Maybe I should explore by touch first. | I shuffle my feet cautiously, feeling the ground for any changes in texture. The darkness around me feels impenetrable, heightening my sense of vulnerability.
+==================================================
+
+=== 2025-10-18 18:55:15 ===
+Player name: Unknown
+IP address: 127.0.0.1
+Session ID: 8d8e2026-d68f-457b-9030-6eea1ad91da0
+CMD: Feel around for the latch of the door
+Response: | I reach out tentatively, fingers searching for a latch that eludes me in the darkness. A sense of frustration creeps in as my efforts prove fruitless.
+==================================================
+
+=== 2025-10-18 18:55:45 ===
+Player name: Unknown
+IP address: 127.0.0.1
+Session ID: 8d8e2026-d68f-457b-9030-6eea1ad91da0
+CMD: Lick door
+Response: You explore the room tongue first and find smooth porcelain on your tongue. It tastes like human waste. You hear a disembodied voice say, "Wow, did you just lick a toilet? How very Crowdis of you. Interesting strategy. Well urine luck, I come with hints. Try flushing the toilet, I've been waiting to say something funny when you do". |
+==================================================
+
+=== 2025-10-18 18:56:35 ===
+Player name: Unknown
+IP address: 127.0.0.1
+Session ID: 8d8e2026-d68f-457b-9030-6eea1ad91da0
+CMD: Flush toilet
+Response: I flush the toilet. The sound echoes in the darkness. Suddenly, a **glowing device** on the floor lights up with a message. |
+==================================================
+
+=== 2025-10-18 18:56:37 ===
+Player name: Unknown
+IP address: 127.0.0.1
+Session ID: 8d8e2026-d68f-457b-9030-6eea1ad91da0
+CMD: pick_up device
+Response: I pick up the device. It glows softly in my hand, providing enough light to see the room clearly. |
+==================================================
+
+=== 2025-10-18 18:56:44 ===
+Player name: A
+IP address: 127.0.0.1
+Session ID: 8d8e2026-d68f-457b-9030-6eea1ad91da0
+CMD: set_name: A
+Response: Name set to A | Tutorial messages sent
+==================================================
+
+=== 2025-10-18 18:59:46 ===
+Player name: A
+IP address: 127.0.0.1
+Session ID: 8d8e2026-d68f-457b-9030-6eea1ad91da0
+CMD: Go sink
+Response: I walk to the sink. |
+==================================================
+
+=== 2025-10-18 18:59:54 ===
+Player name: A
+IP address: 127.0.0.1
+Session ID: 8d8e2026-d68f-457b-9030-6eea1ad91da0
+CMD: Turn on the sink
+Response: | I feel a sense of accomplishment as the sink gurgles to life with a satisfying rush of water.
+==================================================
+
+=== 2025-10-18 19:00:04 ===
+Player name: A
+IP address: 127.0.0.1
+Session ID: 8d8e2026-d68f-457b-9030-6eea1ad91da0
+CMD: Wash out mouth
+Response: | I rinse out my mouth at the sink. The cool water refreshes my senses.
+==================================================
+
+=== 2025-10-18 19:00:14 ===
+Player name: A
+IP address: 127.0.0.1
+Session ID: 8d8e2026-d68f-457b-9030-6eea1ad91da0
+CMD: Walk door
+Response: I walk to the door. |
+==================================================
+
+=== 2025-10-18 19:00:25 ===
+Player name: A
+IP address: 127.0.0.1
+Session ID: 8d8e2026-d68f-457b-9030-6eea1ad91da0
+CMD: Open latch
+Response: | I consider my next move, wondering how to proceed. The latch is a mystery waiting to be unlocked.
+==================================================
+
+=== 2025-10-18 19:00:34 ===
+Player name: A
+IP address: 127.0.0.1
+Session ID: 8d8e2026-d68f-457b-9030-6eea1ad91da0
+CMD: Unlock latch
+Response: | I feel a sense of anticipation as I prepare to unlock the latch. My fingers move with purpose, searching for the mechanism.
+==================================================
+
+=== 2025-10-18 19:00:49 ===
+Player name: A
+IP address: 127.0.0.1
+Session ID: 8d8e2026-d68f-457b-9030-6eea1ad91da0
+CMD: Does it need a key
+Response: | I wonder if the key I found earlier might unlock this door.
+==================================================
+
+=== 2025-10-18 19:01:02 ===
+Player name: A
+IP address: 127.0.0.1
+Session ID: 8d8e2026-d68f-457b-9030-6eea1ad91da0
+CMD: Use key to open the latch
+Response: | I grip the key tightly, ready to unlock the latch. The anticipation builds as I prepare to see what lies beyond the door.
+==================================================
+
+=== 2025-10-18 19:01:12 ===
+Player name: A
+IP address: 127.0.0.1
+Session ID: 8d8e2026-d68f-457b-9030-6eea1ad91da0
+CMD: Open door
+Response: The door is locked. You need to unlatch it first. |
+==================================================
+
+=== 2025-10-18 19:01:21 ===
+Player name: A
+IP address: 127.0.0.1
+Session ID: 8d8e2026-d68f-457b-9030-6eea1ad91da0
+CMD: Unlock door
+Response: | I stand in front of the door, feeling the weight of anticipation in my chest. My hand grips the key tightly, ready to turn the lock and reveal what lies beyond. Time to see what's on the other side.
+==================================================
+
+=== 2025-10-18 19:01:35 ===
+Player name: A
+IP address: 127.0.0.1
+Session ID: 8d8e2026-d68f-457b-9030-6eea1ad91da0
+CMD: Turn key
+Response: | I turn the key, feeling a sense of anticipation as I prepare to discover what lies beyond the door.
+==================================================
+
+=== 2025-10-18 19:01:42 ===
+Player name: A
+IP address: 127.0.0.1
+Session ID: 8d8e2026-d68f-457b-9030-6eea1ad91da0
+CMD: Open door
+Response: The door is locked. You need to unlatch it first. |
+==================================================
+
+=== 2025-10-18 19:01:49 ===
+Player name: A
+IP address: 127.0.0.1
+Session ID: 8d8e2026-d68f-457b-9030-6eea1ad91da0
+CMD: Unlatch door
+Response: I reach up and unlatch the door. It's now unlocked. |
+==================================================
+
+=== 2025-10-18 19:01:57 ===
+Player name: A
+IP address: 127.0.0.1
+Session ID: 8d8e2026-d68f-457b-9030-6eea1ad91da0
+CMD: Open door
+Response: I open the door and step through to the next room. |
+==================================================
+
+=== 2025-10-18 19:19:56 ===
+Player name: Unknown
+IP address: 127.0.0.1
+Session ID: a051f196-9b6e-4e57-97e4-2482ba5a1704
+CMD: Open my eyes
+Response: | In the darkness, I strain my ears for any sound, feeling the stillness like a heavy blanket over me. I take a deep breath, trying to steady myself in the unknown.
+==================================================
+
+=== 2025-10-18 19:20:24 ===
+Player name: Unknown
+IP address: 127.0.0.1
+Session ID: a051f196-9b6e-4e57-97e4-2482ba5a1704
+CMD: Find thetoulet
+Response: | I ponder my next move in the darkness, unsure of where to go. My heart beats a little faster as I try to navigate blindly.
+==================================================
+
+=== 2025-10-18 19:20:42 ===
+Player name: Unknown
+IP address: 127.0.0.1
+Session ID: a051f196-9b6e-4e57-97e4-2482ba5a1704
+CMD: Find toilet
+Response: I search for a toilet but find nothing. I need to explore more to discover what's in this room. |
+==================================================
+
+=== 2025-10-18 19:21:11 ===
+Player name: Unknown
+IP address: 127.0.0.1
+Session ID: a051f196-9b6e-4e57-97e4-2482ba5a1704
+CMD: Walk around and search
+Response: I reach out and feel cold, smooth porcelain. I've found what appears to be a sink. |
+==================================================
+
+=== 2025-10-18 19:21:35 ===
+Player name: Unknown
+IP address: 127.0.0.1
+Session ID: a051f196-9b6e-4e57-97e4-2482ba5a1704
+CMD: Feel sink
+Response: I reach out and feel cold, smooth porcelain. I've found what appears to be a sink. |
+==================================================
+
+=== 2025-10-18 19:21:46 ===
+Player name: Unknown
+IP address: 127.0.0.1
+Session ID: a051f196-9b6e-4e57-97e4-2482ba5a1704
+CMD: Turn on the water
+Response: | I reach out tentatively, feeling for the faucet. The chill of the water against my skin makes me shiver in the darkness.
+==================================================
+
+=== 2025-10-18 19:22:22 ===
+Player name: Unknown
+IP address: 127.0.0.1
+Session ID: a051f196-9b6e-4e57-97e4-2482ba5a1704
+CMD: Turn on the hot water
+Response: | I reach for the hot water handle, feeling the familiar grooves beneath my fingers. The anticipation of a warm cascade builds within me as I turn it on, letting the sound of rushing water fill the darkness around me.
+==================================================
+
+=== 2025-10-18 19:22:41 ===
+Player name: Unknown
+IP address: 127.0.0.1
+Session ID: a051f196-9b6e-4e57-97e4-2482ba5a1704
+CMD: Fill sink
+Response: | I fumble around the sink, searching for the tap. My fingers brush against the cold metal, and I twist it carefully, listening for the sound of water filling the basin.
+==================================================
+
+=== 2025-10-18 19:23:17 ===
+Player name: Unknown
+IP address: 127.0.0.1
+Session ID: a051f196-9b6e-4e57-97e4-2482ba5a1704
+CMD: Listen
+Response: I calm my breathing until I can hear my own heartbeat, oh what's that? I can hear dripping water. |
+==================================================
+
+=== 2025-10-18 19:23:47 ===
+Player name: Unknown
+IP address: 127.0.0.1
+Session ID: a051f196-9b6e-4e57-97e4-2482ba5a1704
+CMD: Taste water
+Response: You explore the room tongue first and find smooth porcelain on your tongue. It tastes like human waste. You hear a disembodied voice say, "Wow, did you just lick a toilet? How very Crowdis of you. Interesting strategy. Well urine luck, I come with hints. Try flushing the toilet, I've been waiting to say something funny when you do". |
+==================================================
+
+=== 2025-10-18 19:24:13 ===
+Player name: Unknown
+IP address: 127.0.0.1
+Session ID: a051f196-9b6e-4e57-97e4-2482ba5a1704
+CMD: Flush toilet
+Response: I flush the toilet. The sound echoes in the darkness. Suddenly, a **glowing device** on the floor lights up with a message. |
+==================================================
+
+=== 2025-10-18 19:24:18 ===
+Player name: Unknown
+IP address: 127.0.0.1
+Session ID: a051f196-9b6e-4e57-97e4-2482ba5a1704
+CMD: pick_up device
+Response: I pick up the device. It glows softly in my hand, providing enough light to see the room clearly. |
+==================================================
+
+=== 2025-10-18 19:24:24 ===
+Player name: Kelly
+IP address: 127.0.0.1
+Session ID: a051f196-9b6e-4e57-97e4-2482ba5a1704
+CMD: set_name: Kelly
+Response: Name set to Kelly | Tutorial messages sent
+==================================================
+
+=== 2025-10-18 19:35:06 ===
+Player name: Unknown
+IP address: 127.0.0.1
+Session ID: a051f196-9b6e-4e57-97e4-2482ba5a1704
+CMD: Stand up
+Response: | I rise to my feet in the darkness, feeling the uncertainty of what lies ahead.
+==================================================
+
+=== 2025-10-18 19:35:20 ===
+Player name: Unknown
+IP address: 127.0.0.1
+Session ID: a051f196-9b6e-4e57-97e4-2482ba5a1704
+CMD: Feel was around me
+Response: | I extend my hands tentatively, fingers brushing against unseen surfaces. The darkness feels heavy around me, swallowing any hint of light.
+==================================================
+
+=== 2025-10-18 19:36:01 ===
+Player name: Unknown
+IP address: 127.0.0.1
+Session ID: a051f196-9b6e-4e57-97e4-2482ba5a1704
+CMD: Smell surface
+Response: I take a deep breath. The place smells of mildew and stale piss. |
+==================================================
+
+=== 2025-10-18 19:36:20 ===
+Player name: Unknown
+IP address: 127.0.0.1
+Session ID: a051f196-9b6e-4e57-97e4-2482ba5a1704
+CMD: Explore surface
+Response: | I reach out tentatively, my hands skimming the unknown surface. Each movement is cautious, my senses on high alert in the oppressive darkness.
+==================================================
+
+=== 2025-10-18 19:36:43 ===
+Player name: Unknown
+IP address: 127.0.0.1
+Session ID: a051f196-9b6e-4e57-97e4-2482ba5a1704
+CMD: Listen for sounds
+Response: I calm my breathing until I can hear my own heartbeat, oh what's that? I can hear dripping water. |
+==================================================
+
+=== 2025-10-18 19:37:03 ===
+Player name: Unknown
+IP address: 127.0.0.1
+Session ID: 14802f1f-6aba-43b6-8759-d3b9909c9546
+CMD: Who is Matthew?
+Response: | I wonder who Matthew is. Maybe I should try to find out once I navigate through this darkness.
+==================================================
+
+=== 2025-10-18 19:37:12 ===
+Player name: Unknown
+IP address: 127.0.0.1
+Session ID: 14802f1f-6aba-43b6-8759-d3b9909c9546
+CMD: Lick
+Response: You explore the room tongue first and find smooth porcelain on your tongue. It tastes like human waste. You hear a disembodied voice say, "Wow, did you just lick a toilet? How very Crowdis of you. Interesting strategy. Well urine luck, I come with hints. Try flushing the toilet, I've been waiting to say something funny when you do". |
+==================================================
+
+=== 2025-10-18 19:37:30 ===
+Player name: Unknown
+IP address: 127.0.0.1
+Session ID: 14802f1f-6aba-43b6-8759-d3b9909c9546
+CMD: Flush toilet
+Response: I flush the toilet. The sound echoes in the darkness. Suddenly, a **glowing device** on the floor lights up with a message. |
+==================================================
+
+=== 2025-10-18 19:37:33 ===
+Player name: Unknown
+IP address: 127.0.0.1
+Session ID: 14802f1f-6aba-43b6-8759-d3b9909c9546
+CMD: pick_up device
+Response: I pick up the device. It glows softly in my hand, providing enough light to see the room clearly. |
+==================================================
+
+=== 2025-10-18 19:37:38 ===
+Player name: Matthew
+IP address: 127.0.0.1
+Session ID: 14802f1f-6aba-43b6-8759-d3b9909c9546
+CMD: set_name: Matthew
+Response: Name set to Matthew | Tutorial messages sent
+==================================================
+
+=== 2025-10-18 19:38:08 ===
+Player name: Unknown
+IP address: 127.0.0.1
+Session ID: a051f196-9b6e-4e57-97e4-2482ba5a1704
+CMD: Taste surface
+Response: You explore the room tongue first and find smooth porcelain on your tongue. It tastes like human waste. You hear a disembodied voice say, "Wow, did you just lick a toilet? How very Crowdis of you. Interesting strategy. Well urine luck, I come with hints. Try flushing the toilet, I've been waiting to say something funny when you do". |
+==================================================
+
+=== 2025-10-18 19:38:26 ===
+Player name: Unknown
+IP address: 127.0.0.1
+Session ID: a051f196-9b6e-4e57-97e4-2482ba5a1704
+CMD: Flush toilet
+Response: I flush the toilet. The sound echoes in the darkness. Suddenly, a **glowing device** on the floor lights up with a message. |
+==================================================
+
+=== 2025-10-18 19:38:38 ===
+Player name: Matthew
+IP address: 127.0.0.1
+Session ID: 14802f1f-6aba-43b6-8759-d3b9909c9546
+CMD: Go door
+Response: I walk to the door. |
+==================================================
+
+=== 2025-10-18 19:38:39 ===
+Player name: Unknown
+IP address: 127.0.0.1
+Session ID: a051f196-9b6e-4e57-97e4-2482ba5a1704
+CMD: pick_up device
+Response: I pick up the device. It glows softly in my hand, providing enough light to see the room clearly. |
+==================================================
+
+=== 2025-10-18 19:38:43 ===
+Player name: Matthew
+IP address: 127.0.0.1
+Session ID: 14802f1f-6aba-43b6-8759-d3b9909c9546
+CMD: Unlatch door
+Response: I reach up and unlatch the door. It's now unlocked. |
+==================================================
+
+=== 2025-10-18 19:38:45 ===
+Player name: Kelly
+IP address: 127.0.0.1
+Session ID: a051f196-9b6e-4e57-97e4-2482ba5a1704
+CMD: set_name: Kelly
+Response: Name set to Kelly | Tutorial messages sent
+==================================================
+
+=== 2025-10-18 19:38:50 ===
+Player name: Matthew
+IP address: 127.0.0.1
+Session ID: 14802f1f-6aba-43b6-8759-d3b9909c9546
+CMD: Open door
+Response: I open the door and step through to the next room. |
+==================================================
+
+=== 2025-10-18 19:40:43 ===
+Player name: Kelly
+IP address: 127.0.0.1
+Session ID: a051f196-9b6e-4e57-97e4-2482ba5a1704
+CMD: Examine mirror
+Response: Like Kenneth, you're a 'mirror' shadow of your former self... |
+==================================================
+
+=== 2025-10-18 19:42:34 ===
+Player name: Kelly
+IP address: 127.0.0.1
+Session ID: a051f196-9b6e-4e57-97e4-2482ba5a1704
+CMD: Examine medicine cabinet
+Response: I examine the medicine cabinet. |
+==================================================
+
+=== 2025-10-18 19:42:59 ===
+Player name: Kelly
+IP address: 127.0.0.1
+Session ID: a051f196-9b6e-4e57-97e4-2482ba5a1704
+CMD: Examine wall
+Response: I examine the wall. |
+==================================================
+
+=== 2025-10-18 19:43:11 ===
+Player name: Kelly
+IP address: 127.0.0.1
+Session ID: a051f196-9b6e-4e57-97e4-2482ba5a1704
+CMD: Examine door
+Response: I examine the door. In the light, I can see there's a latch high up on the door frame. It seems the door was always just latched from the inside. |
+==================================================
+
+=== 2025-10-18 19:43:38 ===
+Player name: Kelly
+IP address: 127.0.0.1
+Session ID: a051f196-9b6e-4e57-97e4-2482ba5a1704
+CMD: Unlatch door
+Response: I reach up and unlatch the door. It's now unlocked. |
+==================================================
+
+=== 2025-10-18 19:44:01 ===
+Player name: Kelly
+IP address: 127.0.0.1
+Session ID: a051f196-9b6e-4e57-97e4-2482ba5a1704
+CMD: Open door
+Response: I open the door and step through to the next room. |
+==================================================
+
+=== 2025-10-18 20:26:12 ===
+Player name: Unknown
+IP address: 127.0.0.1
+Session ID: 14802f1f-6aba-43b6-8759-d3b9909c9546
+CMD: Look around
+Response: I examine the room, but it's too dark to see anything. My other senses feel a bit sharper. |
+==================================================
+
+=== 2025-10-18 20:26:32 ===
+Player name: Unknown
+IP address: 127.0.0.1
+Session ID: 14802f1f-6aba-43b6-8759-d3b9909c9546
+CMD: Lick darkness
+Response: You explore the room tongue first and find smooth porcelain on your tongue. It tastes like human waste. You hear a disembodied voice say, "Wow, did you just lick a toilet? How very Crowdis of you. Interesting strategy. Well urine luck, I come with hints. Try flushing the toilet, I've been waiting to say something funny when you do". |
+==================================================
+
+=== 2025-10-18 20:26:57 ===
+Player name: Unknown
+IP address: 127.0.0.1
+Session ID: 14802f1f-6aba-43b6-8759-d3b9909c9546
+CMD: Flush toilet
+Response: I flush the toilet. The sound echoes in the darkness. Suddenly, a **glowing device** on the floor lights up with a message. |
+==================================================
+
+=== 2025-10-18 20:27:01 ===
+Player name: Unknown
+IP address: 127.0.0.1
+Session ID: 14802f1f-6aba-43b6-8759-d3b9909c9546
+CMD: pick_up device
+Response: I pick up the device. It glows softly in my hand, providing enough light to see the room clearly. |
+==================================================
+
+=== 2025-10-18 20:27:09 ===
+Player name: Matthew
+IP address: 127.0.0.1
+Session ID: 14802f1f-6aba-43b6-8759-d3b9909c9546
+CMD: set_name: Matthew
+Response: Name set to Matthew | Tutorial messages sent
+==================================================
+
+=== 2025-10-18 20:27:59 ===
+Player name: Matthew
+IP address: 127.0.0.1
+Session ID: 14802f1f-6aba-43b6-8759-d3b9909c9546
+CMD: Examine toilet
+Response: Take a picture of this article. |
+==================================================
+
+=== 2025-10-18 20:28:38 ===
+Player name: Matthew
+IP address: 127.0.0.1
+Session ID: 14802f1f-6aba-43b6-8759-d3b9909c9546
+CMD: Go door
+Response: I walk to the door. |
+==================================================
